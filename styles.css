@@ -5,17 +5,10 @@
 
 body {
     background-color: rgb(40, 41, 60);
-  }
-
-h1 {
-    color: lightgrey;
-    font-family: "font", monospace;
-    font-weight: 500;
-    font-style: bold;
 }
 
-p {
-  color: lightgrey;
+a {
+  color: rgb(255, 238, 198);
   font-family: "font", monospace;
   font-weight: 500;
   font-style: bold;
@@ -28,6 +21,23 @@ hr {
   font-style: bold;
 }
 
+
+h1 {
+    color: lightgrey;
+    font-family: "font", monospace;
+    font-weight: 500;
+    font-style: bold;
+    text-align: center;
+
+}
+
+p {
+  color: lightgrey;
+  font-family: "font", monospace;
+  font-weight: 500;
+  font-style: bold;
+}
+
 ul {
   color: lightgrey;
   font-family: "font", monospace;
@@ -35,9 +45,25 @@ ul {
   font-style: bold;
 }
 
-a {
-  color: rgb(255, 238, 198);
+button {
+  background-color: lightgrey;
   font-family: "font", monospace;
   font-weight: 500;
   font-style: bold;
+}
+
+h2 {
+  color: lightgrey;
+  font-family: "font", monospace;
+  font-weight: 500;
+  font-style: bold;
+  text-align: center;
+}
+
+.shop {
+  color: lightgrey;
+  font-family: "font", monospace;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 24px;
 }
