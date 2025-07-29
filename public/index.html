@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/main.css" />
+        <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> planning to add a favicon.-->
+        <title>HTML and CSS!</title>
+    </head>
+
+    <body>
+        <div class="window active" style="max-width: 300px;">
+            <div class="title-bar">
+                <div class="title-bar-text">index.htmlo</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body has-space">
+        <h1>Hello World!</h1>
+
+        <hr />
+        <h2>PLEASE CHECK OUT THE DOCS!</h2>
+        <a href="https://khang-nd.github.io/7.css/">CLICK ME!!</a>
+        <p>This is my <i>not so great</i> <strong>website</strong></p>
+
+        <p>This websites development started on the 19<sup>th</sup> of <b>December</b> (2024)</p>
+
+        <p>
+            This has been made in pure <abbr title="Hyper Text Markup Language"><b>HTML</b></abbr> and <abbr title="Cascading Style Sheets"> <b>CSS</b> </abbr>
+        </p>
+
+        <p>These are some of the things I use.</p>
+
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Linux (kinda)</li>
+            <dd>I use raspberry pis but the computer I use the most is a MacBook.</dd>
+        </ul>
+
+        <p>Join my Minecraft Server! (email me first for a whitelist execption)</p>
+
+        <p>If you wanna contact me you can! I've got an email and my GitHub repo!</p>
+
+        <a href="me@4netexchange.me"> me@4netexchange.me</a> <br />
+        <a href="https://github.com/P135928/4net"> GitHub Repo</a> <br />
+
+        <hr />
+
+        <div class="bg-image"></div>
+        <div class="bg-text">
+            <div id="clickerContainer">
+                <h2>Clicker!</h2>
+                <p>Money: <span id="money">0</span></p>
+                <button id="cookie" onclick="clickCookie()">Money</button>
+            </div>
+
+            <div id="shopContainer">
+                <h3 class="shop">Shop</h3>
+                <p>Money per Click: <span id="mpc">1</span></p>
+                <button onclick="upgradeMPC()">Upgrade MPC (Cost: <span id="mpcCost">10</span> money)</button>
+                <p>Money per Second: <span id="mps">0</span></p>
+                <button onclick="buyMPS()">Buy MPS (Cost: <span id="mpsCost">50</span> money)</button>
+                <br />
+                <br />
+                <button onclick="loadGame()">Load game</button>
+                <button onclick="resetGame()">Reset game</button>
+                <script src="script/clicker.js"></script>
+            </div>
+        </div>
+            </div>
+        </div>
+    </body>
+</html>
