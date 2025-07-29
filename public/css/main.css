@@ -6,3 +6,7 @@ body {
     background-color: var(--bkg-clr);
     color: var(--txt-clr);
 }
+
+.window {
+  max-width: 90% !important;
+}
