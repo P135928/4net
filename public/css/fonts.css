@@ -1,13 +1,6 @@
 body {
-    font-family: monospace;
-    font-weight: 500;
-    font-style: bold;
     text-align: center;
     font-size: 1rem;
-}
-
-a {
-  color: var(--lnk-clr);
 }
 
 ul {
